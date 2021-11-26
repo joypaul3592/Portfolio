@@ -1,0 +1,1424 @@
+/* ____________ Google fonts_________ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/* ____________ Google fonts_________ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border:none;
+    outline: none;
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+}
+body{
+    background: #291225;
+    padding-left: 25%;
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+    cursor: url(img/iconmonstr-cursor-6-24.png), auto;
+    position: relative;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+/* ____menu bars_______________ */
+#mernu_bars{
+    position: fixed;
+    top: 16px;
+    top: 1rem;
+    left: 16px;
+    left: 1rem;
+    z-index: 90000;
+    color:#ffffff;
+    font-size: 27.2px;
+    font-size: 1.7rem;
+    cursor: pointer;
+    display: none;
+}
+/* ____menu bars_______________ */
+
+/* ____________header section start____________ */
+.header_section{
+background: rgb(12, 12, 12);
+-webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+position: absolute;
+left: 0;
+top: 0;
+bottom: 0;
+z-index: 1000;
+padding: 5% 2%;
+text-align: center;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+width: 25%;
+min-height: 100vh;
+position: fixed;
+}
+.header_section .logo{
+    text-transform: uppercase;
+    color:#ffffff;
+    font-size: 32px;
+    font-size:2rem ;
+    font-weight: 600;
+}
+.header_section .logo span{
+    color:#0effaf;
+}
+.header_section .navbar a{
+    display: block;
+    margin: 40px 0;
+    margin: 2.5rem 0;
+    color:#ffffff;
+    font-size: 20.8px;
+    font-size:1.3rem ;
+    font-weight: 500;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    background: none;
+}
+.header_section .navbar a:hover{
+    letter-spacing: 3.2px;
+    letter-spacing: .2rem;
+    color:#0effaf;
+}
+.header_section .social a{
+    margin: 0 12.8px;
+    margin:0 .8rem;
+    font-size: 24px;
+    font-size: 1.5rem;
+    color:#0effaf;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    cursor: url(img/iconmonstr-cursor-6-24.png), auto;
+}
+.header_section .social a:hover{
+    color:#ffffff;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    -webkit-transition: all 0.19s linear;
+    transition: all 0.19s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------
+---------------------home section start-------------------*/
+.home_section{
+    padding:  3%;
+    text-align: center;
+    background: rgb(27, 27, 27);
+    height: 100vh;
+}
+.home_section .user{
+    width: 600px;
+    margin: auto;
+    height: auto;
+    background:  -webkit-linear-gradient( rgb(4, 233, 214, 30%), rgba(0, 0, 255, 0));
+    background:  linear-gradient( rgb(4, 233, 214, 30%), rgba(0, 0, 255, 0));
+    padding: 50px 0;
+    border-radius:  100% 100% 0  100%;
+}
+.home_section .user img{
+    height: 450px ;
+    width:500px;
+}
+.home_section h2{
+    font-size: 22.4px;
+    font-size: 1.4rem;
+    color:#e4e4e4;
+}
+.home_section h1{
+    text-transform: uppercase;
+    color:#ffffff;
+    font-size: 32px;
+    font-size:2rem ;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.home_section span{
+    color:#0effaf;
+}
+.home_section h3{
+    font-size: 24px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-weight: 600;
+    color:#ecf7fc;
+    margin-bottom: 10px;
+}
+.home_section p{
+    font-size: 16px;
+    line-height: 22px;
+    color:#c9c9c9d0;
+    margin-bottom: 30px;
+}
+.home_section button{
+    padding: 9px 25px ;
+    margin: 0 10px;
+    font-size: 16px;
+    font-size:1rem;
+    color:#fff;
+    border-width: 2px;
+    border-style: solid;
+    -o-border-image: linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082)) 1;
+       border-image: -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082)) 1;
+       border-image: linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082)) 1;
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+    position: relative;
+    background:transparent;
+    cursor: url(img/iconmonstr-cursor-6-24.png), auto;
+}
+.home_section button:before{
+    content:'';
+    width: 10%;
+    height:30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:-webkit-linear-gradient( rgb(4, 233, 214, 30%), rgba(0, 0, 255, 0));
+    background:linear-gradient( rgb(4, 233, 214, 30%), rgba(0, 0, 255, 0));
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.home_section button:hover:before{
+    width: 100%;
+    height:100%;
+}
+.home_section button:hover{
+    color:#ffffff;
+    z-index: 20;
+}
+/*---------------------------------------------------------
+---------------------home section End-------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------
+-------------------about section start-------------------------*/
+.about_section{
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(19, 18, 18);
+    text-align: center;
+    padding-top: 30PX;
+    z-index: 55;
+}
+
+.about_section h1{
+    color:#ffffff;
+    font-size: 48px;
+    font-size:3rem ;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.about_section span{
+    color:#0effaf;
+}
+.about_info{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+}
+.left_info,
+.right_info{
+    width: 50%;
+}
+.about_info .left_info{
+    z-index: 25;
+    padding: 2% 5%;
+    background: rgb(14, 13, 13);
+    padding-bottom: 100px;
+}
+.about_info .left_info img{
+    height: 250px;
+    width: 250px;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+.about_info .left_info h2{
+    color:#ffffff;
+    font-size: 20.8px;
+    font-size:1.3rem ;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.about_info .left_info span{
+    color:#0effaf;
+    text-transform: uppercase;
+}
+.about_info .left_info p{
+    font-size: 16px;
+    line-height: 22px;
+    color:#c9c9c9d0;
+    margin-bottom: 30px;
+}
+.left_info button{
+    padding: 9px 25px ;
+    margin: 0 10px;
+    font-size: 16px;
+    font-size:1rem;
+    color:#fff;
+    border-width: 2px;
+    border-style: solid;
+    -o-border-image: linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082)) 1;
+       border-image: -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082)) 1;
+       border-image: linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082)) 1;
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+    border-radius: 10px 0 10px 0;
+    position: relative;
+    background:transparent;
+    cursor: url(img/iconmonstr-cursor-6-24.png), auto;
+}
+.left_info button:before{
+    content:'';
+    width: 10%;
+    height:30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background: linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+    z-index: -1;
+}
+.left_info button:hover:before{
+    width: 100%;
+    height:100%;
+}
+.left_info button:hover{
+    color:#ffffff;
+    z-index: 20;
+}
+
+
+
+.right_info{
+    width: 50%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 5%;
+    background: rgb(14, 13, 13);
+}
+.right_info .client_card{
+    margin-bottom: 20px;
+    height: 35%;
+    width: 45%;
+    background: -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background: linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+    border-radius: 8px;
+}
+.right_info .client_card .card{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    padding: 0 10px;
+}
+.right_info .client_card h1{
+    margin-bottom: 10px;
+}
+.right_info .client_card p{
+    font-size: 16px;
+    color:#c9c9c9d0;
+}
+.right_info .client_card:nth-child(1):before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:  -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background:  linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    width:0%;
+    height: 100%;
+    z-index: -1;
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+    border-radius: 8px;
+}
+.right_info .client_card:nth-child(2):before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:   -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background:   linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+    border-radius: 8px;
+}
+.right_info .client_card:nth-child(3):before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:  -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background:  linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+    border-radius: 8px;
+}
+.right_info .client_card:nth-child(4):before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background:   -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background:   linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+    border-radius: 8px;
+}
+.right_info .client_card:hover:before{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.skill_row{
+    padding: 2% 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: rgb(0, 0, 0);
+    padding-bottom: 50px;
+}
+.skill_row .skill_container{
+    width: 50%;
+    padding-right: 3%;
+    padding-left: 1%;
+}
+.skill_container .progress_bar{
+    margin: 32px 0;
+    margin: 2rem 0;
+}
+.skill_container .progress_bar h3{
+    color:#fff;
+    font-weight: normal;
+    font-size: 20.8px;
+    font-size: 1.3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.skill_container .progress_bar span{
+    color:#0effaf;
+}
+.skill_container .progress_bar .bar{
+    background:  -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background:  linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    border-radius: .5rem;
+    height: 16px;
+    height: 1rem;
+    padding: 5.44px;
+    padding: .34rem;
+    margin: 6.4px 0;
+    margin: .4rem 0;
+}
+.skill_container .progress_bar .bar span{
+    display: block;
+    height: 100%;
+    background: -webkit-linear-gradient( #0effafdc, #0effaf00);
+    background: linear-gradient( #0effafdc, #0effaf00);;
+    border-radius: 3rem;
+}
+.skill_container .progress_bar .bar span:nth-child(1) {
+    width: 95%;
+}
+.skill_container .progress_bar .bar span:nth-child(2) {
+    width: 75%;
+}
+.skill_container .progress_bar .bar span:nth-child(3) {
+    width: 80%;
+}
+.skill_container .progress_bar:last-child .bar span:nth-child(1) {
+    width: 92%;
+}
+.skill_container .progress_bar .bar span:nth-child(1) {
+    width: 90%;
+}
+.skill_container .progress_bar .bar span:nth-child(1) {
+    width: 85%;
+}
+/*-------------------------------------------------------------------------
+-------------------about section End------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------
+---------------------service section start-----------------------*/
+.service_section{
+    min-height: 35vh;
+    background: rgb(19, 18, 18);
+    padding-top: 25px;
+}
+.service_section h1{
+    color:#0effaf;
+    font-size: 48px;
+    font-size:3rem ;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.service_section span{
+    color:#ffffff;
+}
+.service_section .service_container{
+    padding: 2% 2.5%;
+    background: rgb(14, 13, 13);
+}
+.service_section .service_container .row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin:0 3%;
+    text-align: center;
+}
+.service_section .service_container .row .service_card{
+    border:2px solid #ffffff;
+    margin:20px;
+    padding: 35px 25px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.service_section .service_container .row .service_card a{
+    color:#0effaf;
+    font-size: 30px;
+}
+.service_section .service_container .row .service_card h2{
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#ffffffec;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+.service_section .service_container .row .service_card p{
+    font-size: 16px;
+    color:#b4b4b4;
+}
+.service_section .service_container .row .service_card:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    width:0;
+    height: 0;
+    z-index: -1;
+    -webkit-transition: all 0.3s linear;
+    transition:all 0.3s linear;
+    border-radius: 8px;
+    
+}
+.service_section .service_container .row .service_card:hover{
+    background: none;
+    -webkit-transition: 0.0s;
+    transition: 0.0s;
+}
+.service_section .service_container .row .service_card:hover:before{
+    width: 100%;
+    height: 100%;
+}
+.service_section .service_container .row .service_card:hover a{
+    color:#0effaf;
+    -webkit-transition: all 0.1s linear;
+    transition:all 0.1s linear;
+}
+.service_section .service_container .row .service_card:hover h2{
+    color:#000000;
+    -webkit-transition: all 0.2s linear;
+    transition:all 0.2s linear;
+}
+.service_section .service_container .row .service_card:hover p{
+    color:rgba(0, 0, 0, 0.589);
+    -webkit-transition: all 0.2s linear;
+    transition:all 0.2s linear;
+}
+/*-------------------------------------------------------------
+---------------------service section End-----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------
+---------------experience section start-------------------------*/
+.experience_section{
+    min-height: 100vh;
+    background: rgb(19, 18, 18);
+    padding-top: 10px;
+}
+.experience_section h1{
+    color:#ffffff;
+    font-size: 48px;
+    font-size:3rem ;
+    font-weight: 600;
+    margin: 30px 0;
+    text-align: center;
+}
+.experience_section span{
+    color:#0effaf;
+}
+.experience_section  .experience_cantainer{
+    padding: 2% 6%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: rgb(14, 13, 13);
+}
+.experience_section  .experience_cantainer .experience_row {
+    margin:0% 3% ;
+    position: relative;
+}
+.experience_section  .experience_cantainer .experience_row:last-child{
+    margin-right: 0%;
+}
+.experience_section  .experience_cantainer .experience_row:before{
+    content: '';
+    width: 3px;
+    height: 88%;
+    background:   -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background:   linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    position: absolute;
+    top: 6%;
+    left: -5%;
+}
+
+.experience_section  .experience_cantainer .experience_row .experience_card{
+    margin: 8% 3%;
+    background:   -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background:   linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    padding: 8% 4%;
+    border-radius: 8px;
+    position: relative;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.experience_section  .experience_cantainer .experience_card:before{
+    content: '';
+    width: 15px;
+    height:15px ;
+    background:   -webkit-linear-gradient( rgb(4, 233, 214), rgba(4, 233, 214, 0.5));
+    background:   linear-gradient( rgb(4, 233, 214), rgba(4, 233, 214, 0.5));
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: -9.6%;
+}
+.experience_section  .experience_cantainer .experience_card h4{
+    margin-bottom: 16px;
+    margin-bottom: 1rem;
+    color:#0effaf;
+    font-size: 16px;
+    font-size:1rem ;
+    font-weight: 600;
+}
+.experience_section  .experience_cantainer .experience_card h2{
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#ffffff;
+    margin-bottom: 10px;
+}
+.experience_section  .experience_cantainer .experience_card p{
+    font-size: 16px;
+    color:#ffffff7e;
+}
+.experience_section  .experience_cantainer .experience_row .experience_card:hover{
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------================================---------------
+--------==========---experience section end------------------------------------*/
+
+.portfolio_section{
+    min-height: 100vh;
+    background: rgb(19, 18, 18);
+    padding-top: 10px ;
+}
+.portfolio_section h1{
+    color:#ffffff;
+    font-size: 48px;
+    font-size:3rem ;
+    font-weight: 600;
+    margin: 30px 0;
+    text-align: center;
+}
+.portfolio_section span{
+    color:#0effaf;
+}
+.portfolio_section .portfolio_caontiner{
+    padding: 2% 6%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: rgb(14, 13, 13);
+}
+.portfolio_section .portfolio_caontiner .portfolio_row{
+
+    position: relative;
+}
+.portfolio_section .portfolio_caontiner .portfolio_row .portfolio_card{
+    margin: 16% 8%;
+    background: -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background: linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    padding: 4% 7%;
+    height: 240px;
+    height: 15rem;
+    /* width: 25rem; */
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.2s linear;
+    transition:all 0.2s linear;
+}
+.portfolio_section .portfolio_caontiner .portfolio_row .portfolio_card img{
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.portfolio_section .portfolio_caontiner .portfolio_row .portfolio_card button{
+    padding: 7px 20px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background:  -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background:  linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    display: none;
+    position: absolute;
+    bottom: -12.5%;
+    left: 35%;
+    -webkit-transition: all 0.9s linear;
+    transition:all 0.9s linear;
+    color:#ffffff;
+    cursor: pointer;
+}
+.portfolio_section .portfolio_caontiner .portfolio_row .portfolio_card:before{
+    content: '';
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #5f3a524b;
+    z-index: 1;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
+}
+.portfolio_section .portfolio_caontiner .portfolio_row .portfolio_card:hover button{
+    display:block;
+    z-index: 55;
+    bottom:15%;
+    left: 36%;
+    -webkit-transition: all 0.9s linear;
+    transition:all 0.9s linear;
+}
+.portfolio_section .portfolio_caontiner .portfolio_row .portfolio_card:hover:before{
+    width: 100%;
+    height: 50%;
+    -webkit-transition: all 0.25s linear;
+    transition:all 0.25s linear;
+}
+.portfolio_section .portfolio_caontiner .portfolio_row .portfolio_card:hover img{
+    -webkit-transform: scale(1.1) ;
+            transform: scale(1.1) ;
+}
+/*-------------------------------------------------------------
+---------------portfolio section start---------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------
+--------------------------contact section start--------------*/
+.contact_section{
+    min-height: 100vh;
+    background: rgb(19, 18, 18);
+    padding-top: 10px ;
+    position: relative;
+}
+.contact_section h1{
+    color:#ffffff;
+    font-size: 48px;
+    font-size:3rem ;
+    font-weight: 600;
+    margin: 30px 0;
+    text-align: center;
+}
+.contact_section span{
+    color:#0effaf;
+}
+.contact_section .info_container{
+    background:   -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background:   linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    border: 1px solid #0effaf36;
+    position: absolute;
+    top: 27%;
+    left: 6%;
+    padding-left: 3%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-radius: 7px;
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+}
+.contact_section .info_container .contact_info{
+    margin-bottom: 72px;
+    margin-bottom: 4.5rem;
+}
+.contact_section .info_container h2{
+    margin-bottom: 41.6px;
+    margin-bottom: 2.6rem;
+    color:#0effaf;
+    font-size: 24px;
+    font-size:1.5rem ;
+    font-weight: 400;
+}
+.contact_section .info_container .contact_card{
+    margin: 24px 0;
+    margin: 1.5rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.contact_section .info_container .contact_card:hover a{
+    color:#5F3A52;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.contact_section .info_container .contact_card a{
+    font-size: 25px;
+    margin-right: 16px;
+    margin-right: 1rem;
+    color:#0effaf;
+}
+.contact_section .info_container .contact_card p{
+    font-size: 15px ;
+    font-weight: 300;
+    color:#ffffff;
+}
+.contact_section .info_container .contact_social{
+    text-align: center;
+}
+.contact_section .info_container .contact_social a{
+    margin: 0 3.5%;
+    font-size: 28px;
+    color:#ffffff;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.contact_section .info_container .contact_social a:hover{
+    color:#0effaf;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+/*------------message section---------------*/
+.contact_section .mesage_section{
+    background:   -webkit-linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    background:   linear-gradient( rgb(4, 233, 214, 40%), rgba(4, 233, 214, 0.082));
+    border: 1px solid #0effaf;
+    margin: 8% 8% 0% 20%;
+    height: 528px;
+    height: 33rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 18%;
+    border-radius: 8px;
+}
+.contact_section .mesage_section h2{
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+    color:#0effaf;
+    font-size: 24.96px;
+    font-size:1.56rem ;
+    font-weight: 400;
+}
+.contact_section .mesage_section input{
+    width: 288px;
+    width: 18rem;
+    margin: 10px 0;
+    margin-right: 48px;
+    margin-right: 3rem;
+    padding: 8px 0;
+    border-bottom: 1px solid #dadada;
+    background:transparent;
+    font-size: 15px ;
+    font-weight: 300;
+    color:white;
+}
+.contact_section .mesage_section input::-webkit-input-placeholder{
+    color:white;
+}
+.contact_section .mesage_section input::-moz-placeholder{
+    color:white;
+}
+.contact_section .mesage_section input:-ms-input-placeholder{
+    color:white;
+}
+.contact_section .mesage_section input::placeholder{
+    color:white;
+}
+.contact_section .mesage_section .massage{
+    width: 100%;
+    padding-bottom: 80px;
+    padding-bottom: 5rem;
+    display: block;
+}
+.contact_section .mesage_section button{
+    padding: 8px 30px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #0effaf;
+    color: #000000;
+}
+.contact_section .mesage_section input:nth-child(3){
+    margin-right: 0%;
+}
+.contact_section .mesage_section input:nth-child(5){
+    margin-right: 0%;
+}
+.contact_section .mesage_section input:nth-child(6){
+    margin-right: 0%;
+}
+
+
+
+/*-----------------------------------------------------------
+------------------contact section End--------------------------*/
+
+
+
+/* _____________________________________
+_______________responsive 991 px _______________________________
+______________________________________________________________ */
+@media (max-width:991px) {
+    .header_section .logo{
+        font-size:1.3rem ;
+    }
+    .header_section{
+        width: 350px;
+        padding: 8% 1%;
+        background: rgba(0, 0, 0, 0.336)
+    }
+    .home_section{
+        padding: 5rem 5%;
+        height: auto;
+    }
+    .about_section{
+        height: auto;
+    }
+    .about_info{
+        display: block;
+    }
+    .left_info,
+    .right_info{
+        width: 100%;
+    }
+    .right_info{
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 0% 10rem;
+        height: 500px;
+    }
+
+    .experience_section  .experience_cantainer .experience_card:before{
+        content: '';
+        width: 15px;
+        height:15px ;
+        border-radius: 50%;
+        position: absolute;
+        top: 12%;
+        left: -12%;
+    }
+    .contact_section .info_container{
+        top: 25%;
+        padding-left: 3%;
+        padding-right: 2%;
+        width: 15rem;
+    }
+    .contact_section .mesage_section{ 
+        padding-right: 6%;
+        padding-left: 25%;
+    }
+    .contact_section .mesage_section .massage{
+        width: 100%;
+    }
+    #mernu_bars{
+        display: initial;
+    }
+    .header_section{
+        left:-120% ;
+    }
+    body{
+        padding-left: 0%;
+    }
+    .header_section.active{
+        left: 0%;
+    }
+}
+
+
+
+
+@media (max-width:768px){
+
+    .home_section .user{
+        width: 400px;
+    }
+    .home_section .user img{
+        height: 300px ;
+        width:400px;
+    }
+
+    .right_info{
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 20px;
+        height: 500px;
+    }
+
+    
+.service_section{
+    padding: 3% 0;
+}
+.service_section h1{
+    font-size:2.5rem ;
+    margin-bottom: 10px;
+}
+.service_section .service_container{
+    padding: 2% 2%;
+}
+.service_section .service_container .row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+
+
+.contact_section {
+    min-height: 100vh;
+    padding-bottom: 60px;
+  
+  }
+  
+  .contact_section h1{
+      font-size:2.5rem ;
+      margin-bottom: 15px;
+  }
+  
+  .contact_section .info_container{
+      position: absolute;
+      top:15%;
+      left: 30%;
+  }
+  .contact_section .info_container .contact_info{
+      margin-bottom: 0rem;
+  }
+  .contact_section .info_container h2{
+      margin-bottom: 1.7rem;
+  }
+  .contact_section .info_container .contact_card{
+      margin: 1.8rem 0;
+  }
+  
+  
+  .contact_section .mesage_section{
+      height: 30rem;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      padding-right: 4%;
+      padding-left: 4%;
+      width: 19rem;
+      margin: auto;
+      margin-top: 25rem;
+  }
+  .contact_section .mesage_section input{
+      width:100%;
+  }
+}
+
+
+
+
+/* ________responsive 450px_______ */
+@media (max-width:450px){
+    .header_section .logo{
+        font-size:1rem ;
+    }
+    .header_section{
+        padding-top: 16%;
+        padding-bottom: 6%;
+    }
+    .header_section .navbar a{
+        margin: 2rem 0;
+        font-size:.9rem ;
+    }
+    .home_section{
+        padding: 5rem 3%;
+    }
+    .home_section .user{
+        width: 300px;
+    }
+    .home_section .user img{
+        height: 200px ;
+        width:200px;
+        margin: 50px 0;
+    }
+    .home_section h2{
+        font-size: .9rem;
+        color:#e4e4e4;
+    }
+    .home_section h1{
+        font-size:2.5rem ;
+    }
+    .home_section h3{
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    .home_section p{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .home_section button{
+        margin: 10px;
+    }
+    
+    .header_section .social a{
+        margin: .8rem .8rem;
+        font-size: 1rem;
+        color:#ffffff;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+    /* _________about section______ */
+    .about_section{
+        padding-top: 15px;
+        overflow-x: hidden;
+    }
+    
+    .about_section h1{
+        font-size:2rem ;
+        margin-bottom: 15px;
+    }
+    .about_info{
+        display: block;
+    }
+    .left_info,
+    .right_info{
+        width: 100%;
+    }
+    .about_info button{
+        margin: 10px;
+    }
+    .about_info .left_info{
+        padding: 2% 5%;
+        margin-top: 2%;
+        padding-bottom: 50px;
+    }
+    .about_info .left_info img{
+        margin-bottom: 10px;
+    }
+    .about_info .left_info h1{
+        font-size:1.5rem ;
+        margin-bottom: 20px;
+    }
+    .about_info .left_info span{
+        color:#b87373;
+        text-transform: uppercase;
+    }
+    .about_info .left_info p{
+        margin-bottom:23px;
+        text-align: justify;
+    }
+    .right_info{
+        display: initial;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        height: auto;
+    }
+    .right_info .client_card{
+        margin: 20px auto;
+        height: 150px;
+    }
+    .skill_row{
+        padding: 2% 2%;
+        display: initial;
+    }
+    .skill_row .skill_container{
+        width: 100%;
+        padding: 0 8%;
+    }
+    .skill_container .progress_bar h3{
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+/* _________________sevice section start_______ */
+
+.service_section{
+    padding: 3% 0;
+}
+.service_section h1{
+    font-size:2rem ;
+    margin-bottom: 10px;
+}
+.service_section .service_container{
+    padding: 2% 2%;
+}
+.service_section .service_container .row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+/* _____________ exprience section */
+
+.experience_section{
+    padding: 3% 0;
+}
+.experience_section h1{
+    font-size:2rem ;
+    margin-bottom: 10px;
+}
+.experience_section  .experience_cantainer{
+    padding: 2% 6%;
+    display: block;
+}
+
+.experience_section  .experience_cantainer .experience_row:before{
+display: none;
+}
+.experience_section  .experience_cantainer .experience_card:before{
+display: none;
+}
+
+/* -------________ portfolio section___________ */
+
+.portfolio_section h1{
+    font-size:2rem ;
+    margin: 10px 0;
+}
+
+.portfolio_section .portfolio_caontiner{
+    display: block;
+}
+.portfolio_section .portfolio_caontiner .portfolio_row{
+
+    position: relative;
+}
+
+
+/* _________contact section ______*/
+.contact_section {
+  min-height: 100vh;
+  padding-bottom: 60px;
+
+}
+
+.contact_section h1{
+    font-size:2rem ;
+    margin-bottom: 15px;
+}
+
+.contact_section .info_container{
+    position: absolute;
+    top:15%;
+    left: 15%;
+}
+.contact_section .info_container .contact_info{
+    margin-bottom: 0rem;
+}
+.contact_section .info_container h2{
+    margin-bottom: 1.7rem;
+}
+.contact_section .info_container .contact_card{
+    margin: 1.8rem 0;
+}
+
+
+.contact_section .mesage_section{
+    height: 28.5rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 4%;
+    padding-left: 4%;
+    width: 80%;
+    margin: auto;
+    margin-top: 25rem;
+}
+.contact_section .mesage_section input{
+    width:100%;
+}
+
+}
